@@ -1,0 +1,96 @@
+/*************************************************************/
+RESUME DES DERNIERES NOTES PRISES AUPRES DU DIRECTEUR DE L'INSTITUT
+/*************************************************************/
+
+Notre objectif est juste de synchroniser ou adapter au mieux l'appli avec le système scolaire en place.
+Meme si le système ne reflete pas exactement ce qui est là, du moment qu'on retrouve tout ce qu'on a besoin et qu'on utilise aisément, alors c'est bon.
+
+
+Partie 1 : Les filières
+
+Il ont environ 5 départements
+Un département et une filière ne sont pas forcément synonymes ou équivalents
+Car un département peut avoir plusieurs filières
+Et chaque département a un coordonnateur
+
+Voici les différents départements :
+--> Sages femmes / maïeuticiens (1 filière) : 
+	- SFM (niveaux 1, 2 et 3)
+--> Agents techniques Medico-Sanitaires (3 filières) :
+	- ATMS AM : Analyse Medicale (niveau 1)
+	- ATMS PM : Préposé de Morgue (niveau 1)
+	- ATMS SP : Sciences Pharmaceutiques (niveau 1)
+--> Aides Soignants (2 filières) :
+	- Généralistes (niveau 1)
+	- Comuunautaires (niveau 1)
+--> Soins Infirmiers (1 filière):
+	- IDE Infirmier DIplomé d'Etat (j'imagine que c'est ca la déf de IDE) (niveaux 1, 2 et 3)
+--> Techniques Medico Sanitaires (3 filières) :
+	- TMS AM (niveaux 1, 2 et 3)
+	- TMS Kinésithérapie (niveaux 1, 2 et 3)
+	- TGS (niveau 1, 2 et 3)
+
+Note :  Quand il parlait de 6 départements, c'est parcequ'il proposait qu'on créeait un 6ieme département intitulé Kinésithérapie avec 1 filière : les TMS Kiné. Sauf que ca ne depned pas de nous, c'est si les admins de l'école décident de modifier la struturation de l'ecole meme qu'on pourrait faire ça. DOnc on ne prendra pas ça en compte vu que ce n'est pas à nous de décider.
+
+
+Partie 2 : les notes
+
+Bien qu'utile pour l'enregistrement, le traitement et la publication des notes, il faut juste permettre à l'ecole de faire certaines analyses aisément, mais ce n'est pas une aussi grande priorité que la gestion des inscriptions, la programmation des cours, et les factures.
+Ca ne veut pas dire qu'on ne le fera pas, mais on doit s'assurer d'abord que les autres fontionnent avant ceci.
+
+Voici ce que le directeur a expliqué :
+
+--> Il a un semestre S1, un semestre S2, et un examen final (ce dernier est organisé par le ministere et ne nous concerne pas)
+On peut créer un champ juste pour stocker ça, ce qui serait utile si prochaineent elle veut expoter ca en excel, mais c'est pas une obligation (meme si ca ne coute rien de le faire)
+--> Pour les deux semestre, il y a un Controle COntinu CC (30%) et un examen régional (70%)
+--> Donc on conserve les notes de CC et exeman regional pour les deux semestres et on rend les stats et analyses dispos au sujet de ces derniers
+--> Il n'ont pas de systeme de MGP (ce qui est une bonne nouvelle)
+--> Il faut avoir 12 dans toutes les unités et 14 pour la note de stage, pour passer.
+--> On peut ajouter un champ matricule ministeriel (donc le matricule fourni par le ministere meme pour stockage mais ce n'est pas obligé)
+--> Toutes les UEs ont la meme valeur, donc tous les coefficeients seront mis à 1, ou meme simplement masqués.
+
+Note : je ne sais pas s'il avait dit qu'il y a le rattrapage pour l'examen regional, mais je pense qu'il a dit oui, mais on peut prévoir ca dans le systeme ou redemander pour se rassurer.
+
+
+Partie 3 : le personnel
+
+Ils ont :
+- le directeur
+- le coordonnateur
+- le comptable
+- le directeur d'étude (qui est censé juste lire les éléments utiles, je crois)
+- l'enseignant
+- et l'élève
+
+Or aux yeux de notre système, on a :
+- le super admin
+- le gestionnaire
+- le chef de filière
+- l'enseignant
+- l'élève
+
+On aurait pu donne le meme role d'appli au meme role scolaire. Mais après discussion on devra plutôt detacher certains rôles car il explique que:
+- le comptable est le seul qui valide l'inscription finale de l'etudiant (ie il est dans le système mais n'est inscrit qu'après avoir fourni un dossier complet, peut etre le diplome du bac ou du BEPC et les recus de paiement). Ainsi, il faut ajouter des champs commentaires lors de l'inscriptions (dire s'il a fourni les docs ou simplement, dossier complet et valide).
+Et comme apparemment c'est là sa seule fonction, il doit un peu se limiter à cela, bien qu'il soit essentiel dans le processus d'inscription.
+C'est ainsi que nous allons surement devoir retirer la fonction d'inscription aux autres comptes et créer un role comptable uniquement pour cela.
+(A nous d'analyser s'il faudrait que le comptable puisse aussi faire de l'ajout d'utilisateur de type élève)
+
+NB : Inscription juste pour dire associer étudiant à une classe, amis création d'utilisateur de type eleve reste disponible et précede toujours l'inscription, car on ajoute au systeme et quand les dossier sont bons, on t'y inscrit.
+Aussi, il faut se souvenir qu'elle voulait une fonctionnalité ou quelqu'un peut se préinscrire depuis le site web, et mentionner par exemple son contact comme ca surement elle pourra contacter/relancer l'élève pour l'inscription ou simplement anticiper sur ceux qui comptent s'inscrire.
+
+Autre point, on va bien vérifier le rôle appli chef de filière comparé au vrai fonctionnement département et filière de l'ecole.
+(A voir et a analyser)
+
+S'assurer qu'on connaisse qui a validé l'inscription de qui
+
+Mentionner les observations/commentaires d'inscription ou de suspension d'un compte, et peut etre (en tout cas autant que possible).
+
+Offrir une possibilité de suspension de compte pour un certain role sur certains roles (a voir)
+
+Faudra s'assurer que les formats pdfs et excel soient toujours en tout temps disponibles.
+Et verifier les templates de document utiles comme pour les bulletins par exemple et surtout pour les factures.
+Qu'on pourra envoyer via WhatsApp ou via Email.
+
+Si on revoit les roles, la section factures pourra peut etre estre supprimé du role gestionnaire, en tous cas, on verra en temps voulu.
+En gros revoir exactement ce que chaque role peut faire ou ne pas faire.
+(Par exemple quel role se charge réellement de fixer l'emploi de temps ? cela doit il se fair par le coordonnateur de la filière ou plus simplement par un (rôle) gestionnaire global ?)
