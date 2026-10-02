@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import {
   MapPin, Phone, Mail, ExternalLink, Share2, Play, Briefcase,
-  ChevronRight, Send, CheckCircle, AlertCircle, HeartPulse
+  ChevronRight, ChevronDown, Send, CheckCircle, AlertCircle, HeartPulse
 } from 'lucide-react';
 import { siteConfig } from '@/config/site';
 import { programs } from '@/data/programs';
@@ -69,6 +69,11 @@ export default function Footer() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [openSection, setOpenSection] = useState<string | null>(null);
+
+  const toggleSection = (section: string) => {
+    setOpenSection(openSection === section ? null : section);
+  };
 
   const handleNewsletterSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -159,8 +164,11 @@ export default function Footer() {
             </div>
 
             {/* Links Columns */}
-            <div className="footer-links-col">
-              <h3 className="footer-col-title">L&apos;École</h3>
+            <div className={`footer-links-col ${openSection === 'ecole' ? 'open' : ''}`}>
+              <h3 className="footer-col-title" onClick={() => toggleSection('ecole')}>
+                L&apos;École
+                <span className="mobile-chevron"><ChevronDown size={18} /></span>
+              </h3>
               <ul className="footer-links-list">
                 {footerLinks.ecole.map((link) => (
                   <li key={link.href}>
@@ -173,8 +181,11 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="footer-links-col">
-              <h3 className="footer-col-title">Formations</h3>
+            <div className={`footer-links-col ${openSection === 'formations' ? 'open' : ''}`}>
+              <h3 className="footer-col-title" onClick={() => toggleSection('formations')}>
+                Formations
+                <span className="mobile-chevron"><ChevronDown size={18} /></span>
+              </h3>
               <ul className="footer-links-list">
                 {footerLinks.formations.map((link) => (
                   <li key={link.href}>
@@ -188,13 +199,17 @@ export default function Footer() {
             </div>
 
             {/* Newsletter Column */}
-            <div className="footer-newsletter-col">
-              <h3 className="footer-col-title">Restez Informé</h3>
-              <p className="footer-newsletter-desc">
-                Inscrivez-vous à notre newsletter pour recevoir les dernières nouvelles et annonces de l&apos;I3SN.
-              </p>
+            <div className={`footer-newsletter-col ${openSection === 'newsletter' ? 'open' : ''}`}>
+              <h3 className="footer-col-title" onClick={() => toggleSection('newsletter')}>
+                Restez Informé
+                <span className="mobile-chevron"><ChevronDown size={18} /></span>
+              </h3>
+              <div className="footer-newsletter-content">
+                <p className="footer-newsletter-desc">
+                  Inscrivez-vous à notre newsletter pour recevoir les dernières nouvelles et annonces de l&apos;I3SN.
+                </p>
 
-              <form onSubmit={handleNewsletterSubmit} className="newsletter-form" id="footer-newsletter-form">
+                <form onSubmit={handleNewsletterSubmit} className="newsletter-form" id="footer-newsletter-form">
                 <input
                   type="text"
                   placeholder="Votre nom complet"
@@ -254,6 +269,7 @@ export default function Footer() {
                     {link.label}
                   </Link>
                 ))}
+              </div>
               </div>
             </div>
           </div>
@@ -577,6 +593,11 @@ export default function Footer() {
           color: rgba(255,255,255,0.8);
         }
 
+        /* Mobile Chevron for accordions */
+        .mobile-chevron {
+          display: none;
+        }
+
         /* Responsive */
         @media (max-width: 1100px) {
           .footer-grid {
@@ -587,7 +608,37 @@ export default function Footer() {
 
         @media (max-width: 640px) {
           .footer-main { padding: 50px 0 40px; }
-          .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+          .footer-grid { grid-template-columns: 1fr; gap: 16px; }
+          
+          .footer-col-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 0;
+          }
+          
+          .mobile-chevron {
+            display: block;
+            transition: transform 0.3s ease;
+          }
+          
+          .footer-links-list, .footer-newsletter-content {
+            display: none;
+            padding-top: 16px;
+            padding-bottom: 16px;
+          }
+          
+          .open .footer-links-list, .open .footer-newsletter-content {
+            display: block;
+          }
+          
+          .open .mobile-chevron {
+            transform: rotate(180deg);
+          }
+
           .footer-bottom-inner { flex-direction: column; text-align: center; }
           .footer-bottom-links { gap: 16px; }
         }
