@@ -7,13 +7,14 @@ import { programCourses } from "@/data/courses";
 import { siteConfig } from "@/config/site";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const program = programs.find((p) => p.slug === params.slug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const program = programs.find((p) => p.slug === slug);
   if (!program) return { title: "Formation non trouvée" };
 
   return {
@@ -28,8 +29,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function ProgramPage({ params }: PageProps) {
-  const program = programs.find((p) => p.slug === params.slug);
+export default async function ProgramPage({ params }: PageProps) {
+  const { slug } = await params;
+  const program = programs.find((p) => p.slug === slug);
   if (!program) notFound();
 
   const courses = programCourses[program.id];

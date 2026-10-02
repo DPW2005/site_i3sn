@@ -35,6 +35,7 @@ const navLinks = [
   { label: "Admissions", href: "/admissions" },
   { label: "Enseignants", href: "/enseignants" },
   { label: "Actualités", href: "/actualites" },
+  { label: "Galerie", href: "/galerie" },
   { label: "Contact", href: "/contact" },
 ];
 

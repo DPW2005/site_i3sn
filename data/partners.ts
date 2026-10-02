@@ -9,9 +9,9 @@ export interface Partner {
 export const partners: Partner[] = [
   {
     id: "1",
-    name: "Hôpital Central de Yaoundé",
-    logoUrl: "/images/partners/hopital-central.png",
-    websiteUrl: "https://hopital-central.cm",
+    name: "Hôpital Régional de Garoua",
+    logoUrl: "/images/partners/hopital-garoua.png",
+    websiteUrl: "https://minsante.cm", // Usually public hospitals in Cameroon fall under MINSANTE website
     category: "Hospitalier",
   },
   {
@@ -23,9 +23,9 @@ export const partners: Partner[] = [
   },
   {
     id: "3",
-    name: "Université de Yaoundé I",
-    logoUrl: "/images/partners/uy1.png",
-    websiteUrl: "https://uy1.uninet.cm",
+    name: "Université de Garoua",
+    logoUrl: "/images/partners/univ-garoua.png",
+    websiteUrl: "https://univ-garoua.cm",
     category: "Académique",
   },
   {

@@ -1,6 +1,6 @@
 import { departments, programs } from '@/data/programs';
 
-const PHONE_NUMBER = "#";
+const PHONE_NUMBER = "+237 699 000 000";
 
 export const siteConfig = {
   name: "I3SN",

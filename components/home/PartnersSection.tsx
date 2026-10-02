@@ -19,8 +19,12 @@ export default function PartnersSection() {
           <div className="partners-track">
             {[...partners, ...partners].map((partner, i) => (
               <div key={`${partner.id}-${i}`} className="partner-logo" aria-label={partner.name}>
-                <div className="partner-placeholder" aria-hidden="true">
-                  <Building2 size={32} color="var(--color-gray)" />
+                <div className="partner-img-wrapper" aria-hidden="true">
+                  {partner.logoUrl ? (
+                    <img src={partner.logoUrl} alt={partner.name} className="partner-img" />
+                  ) : (
+                    <Building2 size={32} color="var(--color-gray)" />
+                  )}
                 </div>
                 <span className="partner-name">{partner.name}</span>
               </div>
@@ -95,18 +99,28 @@ export default function PartnersSection() {
           transform: translateY(-3px);
         }
 
-        .partner-placeholder {
-          width: 64px;
-          height: 40px;
+        .partner-img-wrapper {
+          height: 60px;
           display: flex;
           align-items: center;
           justify-content: center;
-          opacity: 0.5;
+          margin-bottom: 8px;
+          opacity: 0.8;
           transition: opacity 0.2s;
         }
 
-        .partner-logo:hover .partner-placeholder {
-          opacity: 0.8;
+        .partner-img {
+          max-height: 100%;
+          max-width: 120px;
+          object-fit: contain;
+          filter: grayscale(100%);
+          transition: filter 0.3s ease;
+        }
+
+        .partner-logo:hover .partner-img-wrapper,
+        .partner-logo:hover .partner-img {
+          opacity: 1;
+          filter: grayscale(0%);
         }
 
         .partner-name {

@@ -24,7 +24,7 @@ export default function ProgramsSection() {
             Des Filières Médicales <span>d&apos;Excellence</span>
           </h2>
           <p>
-            L&apos;I3SN propose 6 filières médicales spécialisées, conçues pour répondre aux besoins de santé de l&apos;Afrique et former les professionnels de demain.
+            L&apos;I3SN propose {programs.length} filières médicales spécialisées, conçues pour répondre aux besoins de santé de l&apos;Afrique et former les professionnels de demain.
           </p>
         </div>
 
@@ -44,14 +44,14 @@ export default function ProgramsSection() {
                   <h3 className="program-title">{program.title}</h3>
                   <p className="program-desc">{program.shortDescription}</p>
 
-                  <div className="program-meta">
-                    <div className="program-meta-item">
-                      <Clock size={14} />
+                  <div className="program-meta" style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                    <div className="program-meta-item" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <Clock size={14} style={{ flexShrink: 0 }} />
                       <span>{program.duration}</span>
                     </div>
-                    <div className="program-meta-item">
-                      <GraduationCap size={14} />
-                      <span>{program.degree}</span>
+                    <div className="program-meta-item" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
+                      <GraduationCap size={14} style={{ flexShrink: 0, marginTop: '2px' }} />
+                      <span style={{ flex: 1 }}>{program.degree}</span>
                     </div>
                   </div>
                 </div>

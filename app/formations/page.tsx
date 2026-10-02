@@ -5,7 +5,7 @@ import { programs } from "@/data/programs";
 
 export const metadata: Metadata = {
   title: "Formations",
-  description: "Découvrez les 6 filières médicales de l'I3SN : Médecine Générale, Pharmacie, Sciences Infirmières, Maïeutique, Génie Biomédical et Santé Publique.",
+  description: "Découvrez toutes les filières médicales de l'I3SN : Sciences Infirmières, Maïeutique, Santé Publique, et bien plus.",
 };
 
 const iconMap: Record<string, React.ElementType> = {
@@ -29,7 +29,7 @@ export default function FormationsPage() {
             <span>Formations</span>
           </nav>
           <h1>Nos Formations Médicales</h1>
-          <p>L&apos;I3SN propose 6 filières médicales de haut niveau, conçues pour répondre aux besoins en santé de l&apos;Afrique. Chaque programme combine théorie rigoureuse, stages cliniques et formation pratique.</p>
+          <p>L&apos;I3SN propose {programs.length} filières médicales de haut niveau, conçues pour répondre aux besoins en santé de l&apos;Afrique. Chaque programme combine théorie rigoureuse, stages cliniques et formation pratique.</p>
         </div>
       </div>
 
@@ -44,9 +44,9 @@ export default function FormationsPage() {
                     <div className="formation-icon">
                       <Icon size={36} color="white" />
                     </div>
-                    <div className="formation-header-info">
-                      <div className="formation-duration"><Clock size={14} />{program.duration}</div>
-                      <div className="formation-degree"><GraduationCap size={14} />{program.degree}</div>
+                    <div className="formation-header-info" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'flex-end', textAlign: 'right' }}>
+                      <div className="formation-duration" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'flex-end' }}><Clock size={14} style={{ flexShrink: 0 }} /><span>{program.duration}</span></div>
+                      <div className="formation-degree" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', justifyContent: 'flex-end', textAlign: 'right' }}><GraduationCap size={14} style={{ flexShrink: 0, marginTop: '2px' }} /><span>{program.degree}</span></div>
                     </div>
                   </div>
                   <div className="formation-card-body">

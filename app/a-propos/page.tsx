@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Target, Eye, Heart, Award, Users, ArrowRight } from "lucide-react";
+import { departments, programs } from "@/data/programs";
 
 export const metadata: Metadata = {
   title: "À Propos",
@@ -37,16 +38,16 @@ export default function AProposPage() {
             <div className="about-img-col">
               <div className="about-img-placeholder">
                 <div className="about-img-inner" style={{ background: "var(--gradient-primary)" }}>
-                  <div className="about-year-badge">Depuis 2010</div>
+                  <div className="about-year-badge">Depuis 2023</div>
                 </div>
               </div>
             </div>
             <div className="about-text-col">
               <span className="label">Notre Histoire</span>
-              <h2 className="about-h2">5 Départements, 9 Filières Reconnues</h2>
+              <h2 className="about-h2">{departments.length} Départements, {programs.length} Filières Reconnues</h2>
               <p className="about-p">L’Institut Supérieur des Sciences de la Santé de Ngong (I3SN) est un établissement d’enseignement supérieur spécialisé dans les sciences de la santé, situé à Ngong au Cameroun. Sa devise officielle, <strong>Probitas-Scientiarum-Excellentiam</strong>, reflète les valeurs qui guident sa mission éducative.</p>
-              <p className="about-p">L’école est organisée en <strong>5 départements</strong> : Sages-Femmes / Maïeuticiens (SFM), Agents Techniques Médico-Sanitaires (ATMS), Aides-Soignants, Soins Infirmiers (IDE) et Techniques Médico-Sanitaires (TMS). Chaque département est encadré par un coordonnateur responsable de la qualité pédagogique.</p>
-              <p className="about-p">Le système académique est structuré en deux semestres (S1 et S2) avec un Contrôle Continu (CC à 30%) et un examen régional (70%). La note minimale de passage est de <strong>12/20</strong> dans toutes les unités d’enseignement, et de <strong>14/20</strong> pour la note de stage.</p>
+              <p className="about-p">L’école est organisée en <strong>{departments.length} départements</strong> : Sages-Femmes / Maïeuticiens (SFM), Agents Techniques Médico-Sanitaires (ATMS), Aides-Soignants, Soins Infirmiers (IDE) et Techniques Médico-Sanitaires (TMS). Chaque département est encadré par un coordonnateur responsable de la qualité pédagogique.</p>
+              <p className="about-p">Le système académique est structuré en deux semestres (S1 et S2) avec un Contrôle Continu (CC à 30%) et un examen régional (70%). La note minimale de passage est de <strong>10/20</strong> dans toutes les unités d’enseignement, et de <strong>14/20</strong> pour la note de stage.</p>
               <Link href="/formations" className="btn btn-primary" id="about-discover-formations">
                 Nos formations <ArrowRight size={16} />
               </Link>

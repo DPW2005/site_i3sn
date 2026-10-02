@@ -1132,7 +1132,7 @@ button {
   user-select: none;
   transition: all 0.2s;
 }
-.gallery-filter-tag:hover { border-color: var(--color-primary); color: var(--color-primary); }
+.gallery-filter-tag:hover:not(.gallery-filter-active) { border-color: var(--color-primary); color: var(--color-primary); }
 .gallery-filter-active { background: var(--color-primary); border-color: var(--color-primary); color: white; box-shadow: var(--shadow-primary); }
 .gallery-page-grid {
   display: grid;

@@ -7,6 +7,7 @@ import {
   ChevronRight, Send, CheckCircle, AlertCircle, HeartPulse
 } from 'lucide-react';
 import { siteConfig } from '@/config/site';
+import { programs } from '@/data/programs';
 
 const footerLinks = {
   ecole: [
@@ -16,14 +17,10 @@ const footerLinks = {
     { label: "Vie sur le Campus", href: "/galerie" },
     { label: "Corps Enseignant", href: "/enseignants" },
   ],
-  formations: [
-    { label: "Médecine Générale", href: "/formations/medecine-generale" },
-    { label: "Pharmacie", href: "/formations/pharmacie" },
-    { label: "Sciences Infirmières", href: "/formations/sciences-infirmieres" },
-    { label: "Maïeutique", href: "/formations/maieutique" },
-    { label: "Génie Biomédical", href: "/formations/genie-biomedical" },
-    { label: "Santé Publique", href: "/formations/sante-publique" },
-  ],
+  formations: programs.map(p => ({
+    label: p.shortTitle || p.title,
+    href: `/formations/${p.slug}`
+  })),
   utiles: [
     { label: "Admissions & Concours", href: "/admissions" },
     { label: "Actualités", href: "/actualites" },
