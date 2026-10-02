@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# I3SN — Institut Supérieur des Sciences de la Santé de Ngong
 
-## Getting Started
+Bienvenue sur le dépôt du site web de l'**Institut Supérieur des Sciences de la Santé de Ngong (I3SN)**. Ce projet est une application web moderne conçue pour présenter l'institut, ses programmes de formation médicale, et faciliter la communication avec les étudiants et le public.
 
-First, run the development server:
+Devise : **Probitas • Scientiarum • Excellentiam**
+
+## 🚀 Technologies Utilisées
+
+Ce projet est développé avec les technologies web modernes :
+
+- **[Next.js 15+](https://nextjs.org/)** : Framework React pour le rendu côté serveur (SSR) et la génération de sites statiques (SSG).
+- **[React 19](https://react.dev/)** : Bibliothèque JavaScript pour la création d'interfaces utilisateurs.
+- **[Tailwind CSS v4](https://tailwindcss.com/)** : Framework CSS utilitaire pour un design rapide, moderne et responsif.
+- **[TypeScript](https://www.typescriptlang.org/)** : Superset typé de JavaScript pour un code robuste.
+- **[Lucide React](https://lucide.dev/)** : Bibliothèque d'icônes élégantes et open-source.
+- **[Swiper](https://swiperjs.com/)** : Carrousels tactiles modernes pour la galerie et les bannières.
+- **[XLSX](https://sheetjs.com/)** : Outil pour traiter les fichiers Excel (utilisé pour parser les données).
+
+## 📂 Structure du Projet
+
+Le projet suit la structure standard de l'App Router de Next.js (`app/`) :
+
+```
+site_i3sn/
+├── app/                  # Routes principales de l'application (Pages, Layouts, globals.css)
+├── components/           # Composants React réutilisables
+│   ├── home/             # Composants spécifiques à la page d'accueil (Hero, Stats, etc.)
+│   ├── layout/           # Composants de mise en page globale (Navbar, Footer)
+│   └── ui/               # Composants d'interface génériques (Boutons, Cartes)
+├── config/               # Fichiers de configuration globaux
+├── data/                 # Données statiques JSON ou TypeScript (programmes, actualités)
+├── docs/                 # Documentation supplémentaire (ex: Google Apps Script)
+├── parse_data/           # Scripts de traitement de données (ex: Excel vers JSON)
+├── public/               # Fichiers statiques (images, favicons, logos)
+└── README.md             # Ce fichier
+```
+
+## ⚙️ Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé :
+
+- **Node.js** (version 18 ou supérieure recommandée)
+- **npm**, **yarn**, **pnpm** ou **bun** (gestionnaire de paquets)
+
+## 🛠️ Installation et Lancement
+
+1. **Cloner le dépôt et installer les dépendances :**
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+2. **Lancer le serveur de développement :**
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat. Le site se mettra à jour automatiquement au fur et à mesure de vos modifications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Guide de Maintenance
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pour assurer la longévité et la qualité du code de ce projet, voici quelques bonnes pratiques à respecter :
 
-## Learn More
+### 1. Ajout de nouveaux composants
+- Créez toujours vos composants dans le dossier `components/` en respectant la catégorisation (`ui/`, `layout/`, ou spécifique à une fonctionnalité).
+- Utilisez **TypeScript** pour typer rigoureusement les *props* de vos composants.
+- Privilégiez les classes **Tailwind CSS** pour le style. Si des styles personnalisés complexes sont requis, étendez la configuration de Tailwind ou ajoutez-les dans `app/globals.css`.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Gestion des données statiques
+- Les données qui alimentent le site (formations, statistiques, professeurs, actualités) devraient être isolées dans le dossier `data/` afin d'être modifiables sans toucher à la structure des composants React.
+- Si le projet utilise des données provenant de fichiers Excel (`parse_data/`), assurez-vous d'exécuter les scripts de parsing pour générer le JSON à jour avant de "build" le projet en production.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. SEO et Métadonnées
+- Le SEO est géré au niveau des fichiers `page.tsx` et `layout.tsx` via l'API `Metadata` de Next.js.
+- Pensez à mettre à jour les balises `<title>`, `description`, et `openGraph` lors de l'ajout de nouvelles pages.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4. Scripts Utiles
+- `npm run dev` : Lance le serveur de développement.
+- `npm run build` : Compile le projet pour la production.
+- `npm run start` : Lance le projet en mode production (nécessite un `build` préalable).
+- `npm run lint` : Vérifie le code via ESLint pour repérer les potentielles erreurs.
 
-## Deploy on Vercel
+## 🚀 Déploiement
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Le moyen le plus simple de déployer ce projet Next.js est d'utiliser la plateforme [Vercel](https://vercel.com/new).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Poussez votre code sur GitHub/GitLab/Bitbucket.
+2. Connectez le dépôt à Vercel.
+3. Vercel détectera automatiquement Next.js et gérera le build et le déploiement continu à chaque *push* sur la branche principale.
+
+Pour en savoir plus, consultez la [documentation de déploiement Next.js](https://nextjs.org/docs/app/building-your-application/deploying).
