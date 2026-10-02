@@ -40,10 +40,7 @@ export default function NewsSection() {
         <div className="news-layout">
           {/* Featured Article */}
           <article className="news-featured" id={`news-featured-${featured.id}`} aria-label="Article à la une">
-            <div className="news-featured-image">
-              <div className="news-placeholder-img" aria-hidden="true">
-                <Newspaper size={64} color="rgba(255,255,255,0.3)" />
-              </div>
+            <div className="news-featured-image" style={{ backgroundImage: `url(${featured.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="news-featured-overlay" />
               <div className="news-featured-content">
                 <div className="news-category" style={{ background: categoryColors[featured.category] || "#0B4F9E" }}>
@@ -74,10 +71,7 @@ export default function NewsSection() {
           <div className="news-side">
             {rest.map((article) => (
               <article key={article.id} className="news-card" id={`news-card-${article.id}`}>
-                <div className="news-card-image">
-                  <div className="news-card-placeholder" aria-hidden="true">
-                    <Newspaper size={32} color="rgba(255,255,255,0.3)" />
-                  </div>
+                <div className="news-card-image" style={{ backgroundImage: `url(${article.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                   <div className="news-card-category" style={{ background: categoryColors[article.category] || "#0B4F9E" }}>
                     {article.category}
                   </div>

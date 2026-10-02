@@ -28,9 +28,15 @@ export default function TeachersSection() {
           {featured.map((teacher) => (
             <article key={teacher.id} className="teacher-card" id={`teacher-${teacher.id}`}>
               <div className="teacher-avatar" aria-hidden="true">
-                <div className="teacher-avatar-placeholder">
-                  <User size={48} color="rgba(255,255,255,0.5)" />
-                </div>
+                <div 
+                  className="teacher-avatar-bg" 
+                  style={{ 
+                    position: 'absolute', inset: 0, 
+                    backgroundImage: `url(${teacher.imageUrl})`, 
+                    backgroundSize: 'cover', 
+                    backgroundPosition: 'top center' 
+                  }} 
+                />
                 <div className="teacher-avatar-overlay" />
               </div>
 

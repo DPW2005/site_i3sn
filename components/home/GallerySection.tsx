@@ -4,21 +4,12 @@ import Link from 'next/link';
 import { Camera, ArrowRight, Images } from 'lucide-react';
 
 const galleryItems = [
-  { id: 1, title: "Amphithéâtre Principal", category: "Infrastructure", size: "large" },
-  { id: 2, title: "Laboratoire de Biologie", category: "Laboratoires", size: "small" },
-  { id: 3, title: "Salle de Simulation Médicale", category: "Simulation", size: "small" },
-  { id: 4, title: "Bibliothèque Universitaire", category: "Infrastructure", size: "small" },
-  { id: 5, title: "Centre de Recherche", category: "Recherche", size: "small" },
-  { id: 6, title: "Cérémonie de Remise de Diplômes", category: "Vie du campus", size: "small" },
-];
-
-const gradients = [
-  "linear-gradient(135deg, #0B4F9E, #1a73e8)",
-  "linear-gradient(135deg, #1a8a4a, #2ecc71)",
-  "linear-gradient(135deg, #073a75, #0B4F9E)",
-  "linear-gradient(135deg, #8e44ad, #9b59b6)",
-  "linear-gradient(135deg, #e67e22, #f39c12)",
-  "linear-gradient(135deg, #16a085, #1abc9c)",
+  { id: 1, title: "Amphithéâtre Principal", category: "Infrastructure", size: "large", imageUrl: "/galerie/amphitheatre.jpeg" },
+  { id: 2, title: "Laboratoire de Biologie", category: "Laboratoires", size: "small", imageUrl: "/galerie/laboratoire_biologie.jpg" },
+  { id: 3, title: "Salle de Simulation Médicale", category: "Simulation", size: "small", imageUrl: "/galerie/smulation.jpg" },
+  { id: 4, title: "Bibliothèque Universitaire", category: "Infrastructure", size: "small", imageUrl: "/galerie/bibliotheque.jpg" },
+  { id: 5, title: "Salle Informatique", category: "Infrastructures", size: "small", imageUrl: "/galerie/salle_info.jpg" },
+  { id: 6, title: "Cérémonie de Remise de Diplômes", category: "Vie du campus", size: "small", imageUrl: "/galerie/remise_diplome.jpg" },
 ];
 
 export default function GallerySection() {
@@ -45,8 +36,7 @@ export default function GallerySection() {
               role="img"
               aria-label={item.title}
             >
-              <div className="gallery-img" style={{ background: gradients[i] }}>
-                <Camera size={40} color="rgba(255,255,255,0.25)" aria-hidden="true" />
+              <div className="gallery-img" style={{ backgroundImage: `url(${item.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               </div>
               <div className="gallery-overlay">
                 <div className="gallery-info">

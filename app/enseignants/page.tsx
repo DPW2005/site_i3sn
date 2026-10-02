@@ -36,10 +36,7 @@ export default function EnseignantsPage() {
               <div className="teachers-grid-page">
                 {teachers.filter((t) => t.department === dept).map((teacher) => (
                   <article key={teacher.id} className="teacher-page-card" id={`teacher-page-${teacher.id}`}>
-                    <div className="teacher-page-avatar">
-                      <div className="teacher-page-avatar-bg">
-                        <User size={56} color="rgba(255,255,255,0.4)" />
-                      </div>
+                    <div className="teacher-page-avatar" style={{ backgroundImage: `url(${teacher.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}>
                     </div>
                     <div className="teacher-page-info">
                       <span className="teacher-page-title-badge">{teacher.title}</span>

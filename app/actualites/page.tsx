@@ -45,10 +45,7 @@ export default function ActualitesPage() {
           <div className="news-grid">
             {newsArticles.map((article, i) => (
               <article key={article.id} className={`news-article-card${i === 0 ? " news-article-featured" : ""}`} id={`article-${article.id}`}>
-                <div className="news-article-image">
-                  <div className="news-article-placeholder" style={{ background: Object.values(categoryColors)[i % 4] }}>
-                    <Newspaper size={48} color="rgba(255,255,255,0.25)" />
-                  </div>
+                <div className="news-article-image" style={{ backgroundImage: `url(${article.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                   <span className="news-article-cat" style={{ background: categoryColors[article.category] || "#0B4F9E" }}>
                     <Tag size={11} />{article.category}
                   </span>
