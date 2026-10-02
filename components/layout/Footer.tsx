@@ -6,6 +6,7 @@ import {
   MapPin, Phone, Mail, ExternalLink, Share2, Play, Briefcase,
   ChevronRight, Send, CheckCircle, AlertCircle, HeartPulse
 } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 const footerLinks = {
   ecole: [
@@ -31,15 +32,41 @@ const footerLinks = {
   ],
 };
 
+const FacebookIcon = ({ size = 24 }: { size?: number }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+  </svg>
+);
+
+const TwitterIcon = ({ size = 24 }: { size?: number }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+  </svg>
+);
+
+const LinkedinIcon = ({ size = 24 }: { size?: number }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+  </svg>
+);
+
+const WhatsappIcon = ({ size = 24 }: { size?: number }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+  </svg>
+);
+
 const socials = [
-  { icon: ExternalLink, label: "Facebook", href: "https://facebook.com", id: "footer-facebook" },
-  { icon: Share2, label: "Twitter/X", href: "https://twitter.com", id: "footer-twitter" },
-  { icon: Play, label: "YouTube", href: "https://youtube.com", id: "footer-youtube" },
-  { icon: Briefcase, label: "LinkedIn", href: "https://linkedin.com", id: "footer-linkedin" },
+  { icon: FacebookIcon, label: "Facebook", href: siteConfig.socials.facebook, id: "footer-facebook" },
+  { icon: TwitterIcon, label: "Twitter/X", href: siteConfig.socials.twitter, id: "footer-twitter" },
+  { icon: LinkedinIcon, label: "LinkedIn", href: siteConfig.socials.linkedin, id: "footer-linkedin" },
+  { icon: WhatsappIcon, label: "WhatsApp", href: siteConfig.socials.whatsapp, id: "footer-whatsapp" },
 ];
 
 // --- Google Sheets Integration ---
-const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL || '';
+const GOOGLE_SCRIPT_URL = '/api/submit-form';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -53,36 +80,31 @@ export default function Footer() {
     setStatus('loading');
 
     try {
-      if (!GOOGLE_SCRIPT_URL) {
-        // Simulation si pas de script URL configuré
-        await new Promise((resolve) => setTimeout(resolve, 1000));
+      const response = await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'newsletter',
+          name,
+          email,
+          date: new Date().toISOString(),
+        }),
+      });
+
+      if (response.ok) {
         setStatus('success');
         setEmail('');
         setName('');
-        return;
+      } else {
+        setStatus('error');
       }
-
-      const formData = new FormData();
-      formData.append('type', 'newsletter');
-      formData.append('name', name);
-      formData.append('email', email);
-      formData.append('date', new Date().toISOString());
-
-      await fetch(GOOGLE_SCRIPT_URL, {
-        method: 'POST',
-        body: formData,
-        mode: 'no-cors',
-      });
-
-      setStatus('success');
-      setEmail('');
-      setName('');
     } catch {
       setStatus('error');
     }
 
     setTimeout(() => setStatus('idle'), 4000);
   };
+
 
   return (
     <footer id="footer" role="contentinfo">
@@ -97,7 +119,7 @@ export default function Footer() {
                   <HeartPulse size={24} color="white" />
                 </div>
                 <div>
-                  <div className="footer-logo-name">I3SN</div>
+                  <div className="footer-logo-name">{siteConfig.name}</div>
                   <div className="footer-logo-sub">Institut Supérieur des Sciences<br />de la Santé de Ngong</div>
                 </div>
               </Link>
@@ -109,15 +131,15 @@ export default function Footer() {
               <div className="footer-contact-list">
                 <div className="footer-contact-item" id="footer-address">
                   <MapPin size={16} />
-                  <span>Ngong, Région de l&apos;Adamaoua, Cameroun</span>
+                  <span>{siteConfig.address}</span>
                 </div>
-                <a href="tel:+237699000000" className="footer-contact-item" id="footer-phone">
+                <a href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`} className="footer-contact-item" id="footer-phone">
                   <Phone size={16} />
-                  <span>+237 699 000 000</span>
+                  <span>{siteConfig.phone}</span>
                 </a>
-                <a href="mailto:contact@i3sn.cm" className="footer-contact-item" id="footer-email-link">
+                <a href={`mailto:${siteConfig.email}`} className="footer-contact-item" id="footer-email-link">
                   <Mail size={16} />
-                  <span>contact@i3sn.cm</span>
+                  <span>{siteConfig.email}</span>
                 </a>
               </div>
 
@@ -244,7 +266,7 @@ export default function Footer() {
       {/* Footer Bottom */}
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <p>© {new Date().getFullYear()} I3SN — Institut Supérieur des Sciences de la Santé de Ngong. Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} {siteConfig.name} — {siteConfig.fullName}. Tous droits réservés.</p>
           <div className="footer-bottom-links">
             <Link href="/mentions-legales" id="footer-mentions-legales">Mentions légales</Link>
             <Link href="/politique-confidentialite" id="footer-politique">Politique de confidentialité</Link>
@@ -252,7 +274,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         footer {
           font-family: var(--font-body);
         }

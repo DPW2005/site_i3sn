@@ -71,8 +71,8 @@ export const programs: Program[] = [
   {
     id: "atms-am",
     slug: "atms-analyse-medicale",
-    title: "ATMS — Analyse Médicale (ATMS AM)",
-    shortTitle: "ATMS AM",
+    title: "ATMS — Analyse Médicale (ATMSAM)",
+    shortTitle: "ATMSAM",
     department: "Agents Techniques Médico-Sanitaires (ATMS)",
     description:
       "L'ATMS option Analyse Médicale forme des techniciens capables de réaliser des prélèvements biologiques et des analyses de laboratoire (hématologie, biochimie, microbiologie, parasitologie). Formation en 1 niveau avec nombreux stages pratiques.",
@@ -88,8 +88,8 @@ export const programs: Program[] = [
   {
     id: "atms-pm",
     slug: "atms-prepose-morgue",
-    title: "ATMS — Préposé de Morgue (ATMS PM)",
-    shortTitle: "ATMS PM",
+    title: "ATMS — Préposé de Morgue (ATMSPM)",
+    shortTitle: "ATMSPM",
     department: "Agents Téchniques Médico-Sanitaires (ATMS)",
     description:
       "L'ATMS option Préposé de Morgue prépare des techniciens aux soins mortuaires, à la conservation des corps et aux procédures médico-légales. Formation pratique encadrée en milieu hospitalier.",
@@ -105,8 +105,8 @@ export const programs: Program[] = [
   {
     id: "atms-sp",
     slug: "atms-sciences-pharmaceutiques",
-    title: "ATMS — Sciences Pharmaceutiques (ATMS SP)",
-    shortTitle: "ATMS SP",
+    title: "ATMS — Sciences Pharmaceutiques (ATMSSP)",
+    shortTitle: "ATMSSP",
     department: "Agents Techniques Médico-Sanitaires (ATMS)",
     description:
       "L'ATMS option Sciences Pharmaceutiques prépare aux activités de dispensation et de gestion des médicaments en officine ou en hôpital. Les étudiants apprennent la pharmacologie de base, la gestion des stocks et le conseil aux patients.",
@@ -124,8 +124,8 @@ export const programs: Program[] = [
   {
     id: "aide-soignant-generaliste",
     slug: "aide-soignant-generaliste",
-    title: "Aide Soignant Généraliste",
-    shortTitle: "AS Généraliste",
+    title: "Aide Soignant Généraliste (ASG)",
+    shortTitle: "ASG",
     department: "Aides Soignants",
     description:
       "La formation d'Aide Soignant Généraliste prépare à l'assistance des infirmiers dans les soins quotidiens aux patients hospitalisés : hygiène, confort, alimentation et soutien moral. Formation pratique intensive en milieu hospitalier.",
@@ -141,8 +141,8 @@ export const programs: Program[] = [
   {
     id: "aide-soignant-communautaire",
     slug: "aide-soignant-communautaire",
-    title: "Aide Soignant Communautaire",
-    shortTitle: "AS Communautaire",
+    title: "Aide Soignant Communautaire (ASC)",
+    shortTitle: "ASC",
     department: "Aides Soignants",
     description:
       "L'Aide Soignant Communautaire est formé pour intervenir auprès des populations dans les zones rurales et communautés éloignées, en promouvant la santé préventive et en assurant des soins de proximité essentiels.",
@@ -179,8 +179,8 @@ export const programs: Program[] = [
   {
     id: "tms-am",
     slug: "tms-analyse-medicale",
-    title: "TMS — Analyse Médicale (TMS AM)",
-    shortTitle: "TMS AM",
+    title: "TMS — Analyse Médicale (TAM)",
+    shortTitle: "TAM",
     department: "Techniques Médico-Sanitaires (TMS)",
     description:
       "La formation TMS Analyse Médicale offre un niveau avancé de technicien en analyses biologiques. Sur 3 niveaux, les étudiants maîtrisent les techniques de laboratoire les plus pointues : cytologie, biologie moléculaire, immunologie et sérologie.",
@@ -196,8 +196,8 @@ export const programs: Program[] = [
   {
     id: "tms-kine",
     slug: "tms-kinesitherapie",
-    title: "TMS — Kinésithérapie (TMS Kiné)",
-    shortTitle: "TMS Kiné",
+    title: "TMS — Kinésithérapie (TEK)",
+    shortTitle: "TEK",
     department: "Techniques Médico-Sanitaires (TMS)",
     description:
       "La filière TMS Kinésithérapie forme des techniciens spécialisés en rééducation physique et fonctionnelle. Le programme sur 3 niveaux couvre la physiothérapie, le massage thérapeutique, la rééducation post-opératoire et le sport-santé.",

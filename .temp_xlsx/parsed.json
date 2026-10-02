@@ -1,0 +1,3764 @@
+{
+  "Feuil1": [
+    {
+      "NOM et PRENON DE L’enseignant": "Mr. BOUBA HAMADOU",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Rééducation en chirurgie abdominale",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "ASG/ASC",
+      "              Unité d'enseignement": "Système respiratoire",
+      "VHD": 11,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "ATMS-SP/PM",
+      "              Unité d'enseignement": "Système respiratoire",
+      "VHD": 12,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "ATMS-SP",
+      "              Unité d'enseignement": "Biologie Cellulaire/Cellule et tissu",
+      "VHD": 8,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "ATMS-SP",
+      "              Unité d'enseignement": "Communication en Santé",
+      "VHD": 12,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": " Système respiratoire",
+      "VHD": 9,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": " Biologie",
+      "VHD": 5,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Prévention des infections",
+      "VHD": 22,
+      "VHC": 23,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Système respiratoire ",
+      "VHD": 19,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Anatomie et physiologie du système Respiratoire",
+      "VHD": 19,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Biologie/biochimie générale",
+      "VHD": 19,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Médecine traditionnelle ",
+      "VHD": 8,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Médecine alternative",
+      "VHD": 8,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Biochimie générale",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Dr. ADAMOU AHMADOU",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Systeme respiratoire ",
+      "VHD": 12,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Technique de soins en médecine ",
+      "VHD": 15,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Technique de soins en chirurgie ",
+      "VHD": 15,
+      "VHC": 13,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Affection du système locomoteur",
+      "VHD": 9,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "ASG/ASC",
+      "              Unité d'enseignement": "Système locomoteur",
+      "VHD": 10,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "ATMS SP/PM",
+      "              Unité d'enseignement": "Système locomoteur",
+      "VHD": 12,
+      "VHC": 7,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Système locomoteur",
+      "VHD": 6,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Sémiologie générale",
+      "VHD": 14,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Pharmacologie générale",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": " Technique de Soins infirmiers de bases en médecine et chirurgie ",
+      "VHD": 40,
+      "VHC": 76,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Anatomie et physiologie du système locomoteur",
+      "VHD": 10,
+      "VHC": 38,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Système Respiratoire",
+      "VHD": 18,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ALBAHANSA",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Système Locomoteur",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. ANGAI  APPOLINAIRE   ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": " Hygiène hospitalière",
+      "VHD": 14,
+      "VHC": 13,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. ANGAI  APPOLINAIRE   ",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Hygiène hospitalière",
+      "VHD": 21,
+      "VHC": 30,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BAYANG",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Droits humains/Civil",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BAYANG",
+      "CIBLE": "SFM1/TEK2",
+      "              Unité d'enseignement": "Droit et législation",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BAYANG",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Droit du travail",
+      "VHD": 14,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BAYANG",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Législation ",
+      "VHD": 10,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BAYANG",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Législation ",
+      "VHD": 10,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Système nerveux",
+      "VHD": 7,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "ATMS SP/PM",
+      "              Unité d'enseignement": "Système Nerveux",
+      "VHD": 10,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "ATMS SP/PM",
+      "              Unité d'enseignement": "Système endocrinien",
+      "VHD": 9,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": " Système Nerveux",
+      "VHD": 7,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": " Système Endocrinien",
+      "VHD": 4,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Système nerveux",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "SFM1/TEK2",
+      "              Unité d'enseignement": "Système endocrinien ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Diététique",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Anatomie et physiologie du système Nerveux",
+      "VHD": 15,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Anatomie et physiologie du système Endocrinien",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": " Neurologie centrale ",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Neurologie périphérique ",
+      "VHD": 12,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " M. BEYISSIRI DIDIER",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Système nerveux",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. BELANDI WAMBARA",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": " Acceuil et enregistrement des corps et dépositaires",
+      "VHD": 7,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. BELANDI WAMBARA",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Toilette mortuaire",
+      "VHD": 17,
+      "VHC": 17,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. BELANDI WAMBARA",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Organisation des espaces pour l’accueil des familles et des proches",
+      "VHD": 11,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. BELANDI WAMBARA",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Dispositions administratives, légales et financières",
+      "VHD": 17,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. BRAKWE PROSPERE",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": " Système CARDIOVASCULAIRE ",
+      "VHD": 30,
+      "VHC": 38,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. DANABE",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Législation /Initiation à l’Insertion Professionnelle",
+      "VHD": 11,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. DANABE",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Administration/ Management",
+      "VHD": 9,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. DANABE",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Administration et Législation",
+      "VHD": 14,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Communication santé",
+      "VHD": 22,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Diagnostique communautaire",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Notions générales d’entomologie et malacologie",
+      "VHD": 12,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Notion sur la Médecine traditionnelle",
+      "VHD": 10,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Introduction sur les aspects de communautaires des MCNT",
+      "VHD": 19,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC/ASG",
+      "              Unité d'enseignement": "Système cardiovasculaire",
+      "VHD": 11,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Affections du Système respiratoire  ",
+      "VHD": 22,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "NEW",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "System endocrinien",
+      "VHD": 9,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ATMS-SP/PM",
+      "              Unité d'enseignement": "Système cardiovasculaire",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Système Cardiovasculaire",
+      "VHD": 6,
+      "VHC": 5,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Système cardio vasculaire ",
+      "VHD": 19,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Système cardiovasculaire",
+      "VHD": 12,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DJIOMETION MARINA",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Anatomie et physiologie du système Cardiovasculaire",
+      "VHD": 7,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. DIKONGUE HERVE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": " Parasitologie",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr DJAPSIA BRUNO       ",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Analgésies en obstétrique ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr DJAPSIA BRUNO       ",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Anesthésiologie/Réanimation",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr DJAPSIA BRUNO       ",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": " Soins infirmiers en anesthésie",
+      "VHD": 12,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr DJAPSIA BRUNO       ",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Soins en Urgences et réanimations ",
+      "VHD": 20,
+      "VHC": 24,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. DEZEUBE DANIEL",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "VACINATION",
+      "VHD": 14,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr. DOBE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Chimie analytique ",
+      "VHD": 24,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr. DOBE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Chimie de ",
+      "VHD": 22,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr. DOBE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": "eau/aliment/ environnement ",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr. DOBE",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Chimie analytique ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr. DOBE",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Chimie organique ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. DOUKA",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": " Anthropologie /Ethnologie ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Généralités sur les médicaments",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Principes de l’utilisation des médicaments pour la prise en charge communautaire des maladies",
+      "VHD": 15,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "ASG/ASC",
+      "              Unité d'enseignement": "Notions sur la politique nationale du médicament et médicaments essentiels",
+      "VHD": 7,
+      "VHC": 7,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Pharmacologie spéciale ",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Pharmacologie générale ",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Pharmacologie clinique",
+      "VHD": 26,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": "Pharmacologie ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Généralités sur les médicaments",
+      "VHD": 7,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Notions de médicaments essentiel",
+      "VHD": 6,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. ENONE",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Gestion des médicaments",
+      "VHD": 8,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASC ",
+      "              Unité d'enseignement": "Cellule et tissu",
+      "VHD": 7,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASC ",
+      "              Unité d'enseignement": "Introduction sur Maladies tropicales négligées ",
+      "VHD": 24,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASC ",
+      "              Unité d'enseignement": "Définition des concepts et notion sur les déterminants de la santé",
+      "VHD": 13,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Système reproducteur ",
+      "VHD": 6,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Hygiène Générale",
+      "VHD": 24,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Système génital",
+      "VHD": 7,
+      "VHC": 4,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Système tégumentaire ",
+      "VHD": 8,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Biologie de la reproduction/",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Système reproducteur ",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Hygiène et assainissement",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Système de santé/politique publique",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Nutrition et pathologies nutritionnelles",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Affections medicales cellules et tissus                  ",
+      "VHD": 35,
+      "VHC": 35,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Biologie générale  ",
+      "VHD": 9,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Système génital ",
+      "VHD": 9,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Système de santé/Politique de santé ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Nutrition et pathologies nutritionnelles ",
+      "VHD": 20,
+      "VHC": 34,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": " Système tégumentaire",
+      "VHD": 8,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Nutrition  ",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Cellule tissu et organe",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Système reproducteur",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Cytologie, histologie",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Anatomie et physiologie du système Reproducteur",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "  médicale, malacologie et",
+      "VHD": 52,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "lutte contre les vecteurs",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Pathologie animale et surveillance épidémiologique en santé animale",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": " Mme. FANTA AMANDINE",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Hygiène alimentaire",
+      "VHD": 36,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. FIESSOUBA HIPPLYTE",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Biochimie Générale",
+      "VHD": 24,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. FIESSOUBA HIPPLYTE",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "chimie Générale",
+      "VHD": 16,
+      "VHC": 16,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Profession de la sage-femme",
+      "VHD": 14,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Santé génésique et droits sexuels",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Genre",
+      "VHD": 10,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "(Technique de ) Soins infirmiers de base",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Ethique et déontologie ",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Pathologies obstétricales ",
+      "VHD": 40,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Dystocies ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Soins infirmiers avancés en obstetrique ",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Autres variétés d’accouchement",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Soins obstétricaux ",
+      "VHD": 40,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "PTME/VIH et HEPATITES ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Pédiatrie sociale ",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": " Ethique ",
+      "VHD": 19,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Déontologie",
+      "VHD": 12,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Affections du Nouveau-né/ Nourrissons/ Enfants ",
+      "VHD": 30,
+      "VHC": 42,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Prévention de la transmission Mère _PTME VIH/SIDA ",
+      "VHD": 10,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Pathologie gynécologique obstétricale et andrologie",
+      "VHD": 28,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAO          ",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Initiation aux Soins infirmier",
+      "VHD": 12,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Anatomie musculosquelettique",
+      "VHD": 24,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Modalité thérapeutique",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Kinésiologie",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Méthode d’évaluation et d’exploration en kinésithérapie",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Thérapie manuelle",
+      "VHD": 33,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Techniques spéciales neuromusculaires",
+      "VHD": 26,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Rééducation en médecine",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Pathologie cardiovasculaire et chirurgie cardiovasculaire",
+      "VHD": 55,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme.  GANGOUM TCHAMDEU DELSIE",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Kinésithérapie cardio-respiratoire",
+      "VHD": 50,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAWAIDO",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": " Physique appliquée",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. GAWAIDO",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Etude d’impact Environnemental",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ASC/ASG",
+      "              Unité d'enseignement": "Méthode du travail/responsabilité professionnelle",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ASC/ASG",
+      "              Unité d'enseignement": "Ethique et déontologie  ",
+      "VHD": 11,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ASC/ASG",
+      "              Unité d'enseignement": "Management qualité des soins/Démarche qualité ",
+      "VHD": 15,
+      "VHC": 28,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Affection du système circulatoire",
+      "VHD": 15,
+      "VHC": 30,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Management qualité des soins  ",
+      "VHD": 9,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Ethique ",
+      "VHD": 10,
+      "VHC": 5,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Responsabilité professionnelle",
+      "VHD": 5,
+      "VHC": 5,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Ethique et Déontologie",
+      "VHD": 8,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Politique et Système de Santé",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "ATMSSP/PM",
+      "              Unité d'enseignement": "Méthode du travail",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Méthodologie de travail",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Techniques d’enseignement et d’apprentissage",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": " Méthode de travail",
+      "VHD": 10,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Entreprenariat /Leadership infirmier ",
+      "VHD": 15,
+      "VHC": 16,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Transfusion Sanguine ",
+      "VHD": 12,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Affections du Système Endocriniens ",
+      "VHD": 23,
+      "VHC": 24,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Initiation à la rédaction administrative",
+      "VHD": 17,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Gestion administrative d'un service de santé",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Organisation et gestion d’une équipe de travail",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Cytologie et Anatomie pathologie ",
+      "VHD": 45,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": " Parasitologie ",
+      "VHD": 40,
+      "VHC": 33,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": " Hematologie ",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Ethique et deontologie  professionnelle",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mr KALGONG GEORGES",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Rédaction du mémoire",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "ASC/ASG",
+      "              Unité d'enseignement": "Système digestif",
+      "VHD": 11,
+      "VHC": 17,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "ATMSSP/PM",
+      "              Unité d'enseignement": "Système digestif",
+      "VHD": 12,
+      "VHC": 0,
+      "CON": "",
+      "__EMPTY": 7,
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Système digestif",
+      "VHD": 5,
+      "VHC": 7,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Hygiène et sécurité au laboratoire",
+      "VHD": 18,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Système digestif ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Anatomie et physiologie du système digestif",
+      "VHD": 15,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Hygiène Individuelle du milieu et de l’habitat",
+      "VHD": 10,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": " TGS1",
+      "              Unité d'enseignement": " Système digestif",
+      "VHD": 13,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. HAISSIA MOUDAY Bernard     ",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Pollution de l’environnement",
+      "VHD": 25,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. IBRAHIMA  KHALIL",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Urgence chirurgicale ",
+      "VHD": 16,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. IBRAHIMA  KHALIL",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Soins au bloc opératoire ",
+      "VHD": 16,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. IBRAHIMA  KHALIL",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Demarche scientifique des soins ",
+      "VHD": 18,
+      "VHC": 56,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KENGNE OUAFO",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Maladies infectieuses et parasitaires",
+      "VHD": 29,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KENGNE OUAFO",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Notion sur la démarche en soins",
+      "VHD": 28,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KENGNE OUAFO",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "  PCIMNE",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": 12,
+      "__EMPTY_1": "IDE2"
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KENGNE OUAFO",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "CCC/C4D ",
+      "VHD": 45,
+      "VHC": 17,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KEMONE",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Généralité sur les premier soins",
+      "VHD": 16,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KEMONE",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Système sensoriel ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KEMONE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Approche Philosophique",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KEMONE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": " de la profession de sage-femme",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KEMONE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Education à la vie familiale",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KEMONE",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Démarche des soins ",
+      "VHD": 29,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KLANKANDJI",
+      "CIBLE": "ATMS PM",
+      "              Unité d'enseignement": "Rite et savoir lier à la mort",
+      "VHD": 8,
+      "VHC": 7,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KLANKANDJI",
+      "CIBLE": "ATMS PM",
+      "              Unité d'enseignement": "Cryoconservation",
+      "VHD": 11,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KLANKANDJI",
+      "CIBLE": "ATMS PM",
+      "              Unité d'enseignement": "Gestion des incidents",
+      "VHD": 5,
+      "VHC": 4,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KONDA CHANTAL",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Notions de la démarche qualité",
+      "VHD": 8,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KONDA CHANTAL",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Parasitologie",
+      "VHD": 45,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KONDA CHANTAL",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Bactériologie systémique",
+      "VHD": 45,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KONDA CHANTAL",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Normes et standards",
+      "VHD": 7,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KONDA CHANTAL",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Ethique et responsabilité",
+      "VHD": 10,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KONDA CHANTAL",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Méthode de travail",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOULI MIDJOMI",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "PCIMA : Prise en Charge Intégrée des Maladies",
+      "VHD": 27,
+      "VHC": 32,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOULI MIDJOMI",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Affection du système digestif",
+      "VHD": 10,
+      "VHC": 17,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOULI MIDJOMI",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Promotion de la Santé",
+      "VHD": 11,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOULI MIDJOMI",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Système d’Information Sanitaire",
+      "VHD": 11,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOULI MIDJOMI",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": " Sante publique ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KOTAP",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Soins en kinésithérapie ",
+      "VHD": 14,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KOTAP",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": " Massothérapie 2",
+      "VHD": 36,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Actes de base",
+      "VHD": 14,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Premier secours",
+      "VHD": 28,
+      "VHC": 18,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Accueil ",
+      "VHD": 10,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Soins Infirmier de base",
+      "VHD": 16,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Premier secours Pratique",
+      "VHD": 16,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Secourisme",
+      "VHD": 26,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. KOTCHEDEM FRANCOIS",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": " Premier secours ",
+      "VHD": 12,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Microbiologie générale",
+      "VHD": 38,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Techniques de laboratoire (Microbiologie,",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": " Biochimie, Parasitologie/Mycologie, ",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Hématologie) Partie 2",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Métalangue 3  ",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Langues officielles ",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": "Instrumentation et verrerie de labo. ",
+      "VHD": 10,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Microbiologie de ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": "L’eau/aliment/env ",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme MAFO ROSALINE",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": " Langues officielles ",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Dynamique de groupes  ",
+      "VHD": 9,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Maladie à potentiel épidémique",
+      "VHD": 9,
+      "VHC": 23,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Soins de santé primaires",
+      "VHD": 12,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": " Histoire de la profession",
+      "VHD": 6,
+      "VHC": 6,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Concept et théories en soins infirmiers",
+      "VHD": 15,
+      "VHC": 24,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Médecine du travail",
+      "VHD": 8,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MAINA ",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Médecine scolaire ",
+      "VHD": 8,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme. MAKAME  NELLY",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Suivi post natal",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Système sensoriel",
+      "VHD": 8,
+      "VHC": 8,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Affection du système néphrologique",
+      "VHD": 10,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Système Tégumentaire",
+      "VHD": 9,
+      "VHC": 7,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Système Sensoriel",
+      "VHD": 10,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Système Sensoriel",
+      "VHD": 4,
+      "VHC": 4,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Système Urinaire",
+      "VHD": 9,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Embryologie",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. MANDO NDOU Bertrand",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Seminar presentation  ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MBOM Aron",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": " Appareillage ",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MBOM Aron",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": " Rééducation gynécologique et obstétricale",
+      "VHD": 45,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MOUSSA MODIBO      ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Biochimie clinique",
+      "VHD": 25,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. MOUSSA MODIBO      ",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Biochimie",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ASG/ASC",
+      "              Unité d'enseignement": "Système Urinaire",
+      "VHD": 9,
+      "VHC": 9,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ATMPM",
+      "              Unité d'enseignement": "Langues officielles au Cameroun ",
+      "VHD": 10,
+      "VHC": 0,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Système urinaire et de reproduction",
+      "VHD": 8,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Langues officielles au Cameroun",
+      "VHD": 18,
+      "VHC": 0,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Langue Officielles",
+      "VHD": 22,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Système Urinaire",
+      "VHD": 4,
+      "VHC": 4,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Accueil et Conseil",
+      "VHD": 7,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Appareil urinaire",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Métalangue 1",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Langue officiel",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Langue",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Métalangue 2 ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Langue officiel ",
+      "VHD": 25,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme NABOUA    ",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Langues officielles",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NATSSEN ",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Physique appliquée",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NATSSEN ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Technologie et physique",
+      "VHD": 18,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NATSSEN ",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Physique appliquée",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Techniques de prélèvement des échantillons  biologiques",
+      "VHD": 18,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Conservation et Transport",
+      "VHD": 9,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Hématologie",
+      "VHD": 40,
+      "VHC": 35,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Immunologie",
+      "VHD": 22,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "ATMSAM",
+      "              Unité d'enseignement": "Sérologie",
+      "VHD": 22,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Techniques de laboratoire (Microbiologie,",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": " Biochimie, Parasitologie/Mycologie, ",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Hématologie) Partie 1",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Mycologie ",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Hematologie ",
+      "VHD": 45,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Immuno-serologie ",
+      "VHD": 29,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Biochimie chinique ",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": "Bochimie ",
+      "VHD": 31,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": " Mycologie ",
+      "VHD": 21,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": " Legislation prof ",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Microbiologie /Bactériologie",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Initiation au Techniques de labo et gestion de qualité",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Secourisme /premier soins",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NDIEBE Evarice",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Microbiologie/ Bactériologie",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M NGAKO",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Ethique professionnelle et déontologie",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M NGAKO",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Epidémiologie et enquêtes sanitaires ",
+      "VHD": 24,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M NGAKO",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": " Inspection Sanitaire",
+      "VHD": 25,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M NGAKO",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": " Système De Management Qualité Et Sante Sécurité Au Travail",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M NGAKO",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": " Gestion Des Eaux Usées Et Notion D’ouvrage d’évacuation ",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Pr. NGAKOU",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Virologie  ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Pr. NGAKOU",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Immunologie ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Pr. NGAKOU",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": " Méthode de Biologie Moleculaire ",
+      "VHD": 25,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Pr. NGAKOU",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": "Virologie ",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Pr. NGAKOU",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Eco-toxicologie",
+      "VHD": 40,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Pr. NGAKOU",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Etude des pesticides et Phytopharmacie",
+      "VHD": 25,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NKOA SIMON DURAN",
+      "CIBLE": "IDE2",
+      "              Unité d'enseignement": "Différentes Classes et Familles des Médicaments ",
+      "VHD": 30,
+      "VHC": 32,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NKOA SIMON DURAN",
+      "CIBLE": "SFM1/TEK1",
+      "              Unité d'enseignement": "Système locomoteur",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Santé numérique",
+      "VHD": 11,
+      "VHC": 0,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "NTIC 3",
+      "VHD": 24,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Management en Santé",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Santé numérique/Informatique",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Organisation et gestion d'une équipe de travail",
+      "VHD": 15,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Informatique pratique Santé numérique",
+      "VHD": 35,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Economie générale",
+      "VHD": 16,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Informatique/Santé Numérique",
+      "VHD": 32,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Economie de la santé",
+      "VHD": 32,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Management en santé",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Initiation à l’utilisation des programmes III",
+      "VHD": 17,
+      "VHC": 16,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Système de Financement de la santé",
+      "VHD": 7,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": "Informatique",
+      "VHD": 28,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Informatiqsue ",
+      "VHD": 28,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Economie Urbaine",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": " Sante Numérique",
+      "VHD": 28,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. NOUFELIE ROMUS",
+      "CIBLE": "TGS3/IDE3",
+      "              Unité d'enseignement": "Economie de la santé ",
+      "VHD": 27,
+      "VHC": 28,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. NGONGA",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Soins infirmiers en Odonto-Stomatologie",
+      "VHD": 12,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. ONANA    ",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Organisation du service de soins",
+      "VHD": 10,
+      "VHC": 16,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme SAIBA  GHISLAINE     ",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Embaumement",
+      "VHD": 5,
+      "VHC": 4,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme SAIBA  GHISLAINE     ",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Techniques d’injections en thanatopraxie",
+      "VHD": 22,
+      "VHC": 21,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme SAIBA  GHISLAINE     ",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Habillage et mise en bière",
+      "VHD": 20,
+      "VHC": 17,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme SAIBA  GHISLAINE     ",
+      "CIBLE": "ATMSPM",
+      "              Unité d'enseignement": "Techniques de drainage en thanatopraxie",
+      "VHD": 20,
+      "VHC": 21,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  M. SAIBA PAUL",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": " Technique d’imagerie",
+      "VHD": 20,
+      "VHC": 23,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  M. SAIBA PAUL",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": " Technique d’imagerie médicale",
+      "VHD": 24,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. SIGNE",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Gynécologie",
+      "VHD": 40,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "ASC",
+      "              Unité d'enseignement": "Introduction à la santé mentale",
+      "VHD": 15,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Notion sur la psychologie et sociologie",
+      "VHD": 18,
+      "VHC": 16,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "ATMSSP/PM",
+      "              Unité d'enseignement": "Notion de la Psychologie",
+      "VHD": 16,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "ATMSSP/PM",
+      "              Unité d'enseignement": "Sociologie",
+      "VHD": 11,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Psychologie/Sociologie",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Anthropologie",
+      "VHD": 9,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Sociologie de la santé ",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Psychologie clinique",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Santé Mentale périnatale ",
+      "VHD": 22,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": " Soins infirmiers en santé mentale ",
+      "VHD": 32,
+      "VHC": 34,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Psychologie de la santé",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Sociologie de la santé",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TAKOUKAM",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Psychosociologie",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOKONA KONTCHOU",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Biomécanique",
+      "VHD": 40,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOKONA KONTCHOU",
+      "CIBLE": "TEK2",
+      "              Unité d'enseignement": "Méthode ponséti",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOKONA KONTCHOU",
+      "CIBLE": "TEK3",
+      "              Unité d'enseignement": "Kinésithérapie et sport",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "ATMS SP",
+      "              Unité d'enseignement": "Anthropologie et Ethnologie en santé publique  ",
+      "VHD": 15,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "TG3",
+      "              Unité d'enseignement": "Rhéologie",
+      "VHD": 21,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Anatomie palpatoire",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "IDE 3",
+      "              Unité d'enseignement": " Processus de Gestion Sanitaire/         ",
+      "VHD": 14,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "IDE 3",
+      "              Unité d'enseignement": "Management de qualité             ",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "IDE 3",
+      "              Unité d'enseignement": "",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "IDE 3",
+      "              Unité d'enseignement": "Organisation Sanitaire au Cameroun    ",
+      "VHD": 14,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "IDE 3",
+      "              Unité d'enseignement": "",
+      "VHD": "",
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TCHOUKOUWOMDAR",
+      "CIBLE": "IDE 3",
+      "              Unité d'enseignement": "Soins au Bloc Opératoire",
+      "VHD": 28,
+      "VHC": 14,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TUNEWAN            ",
+      "CIBLE": "IDE1",
+      "              Unité d'enseignement": "Anatomie et physiologie du système sensoriel",
+      "VHD": 20,
+      "VHC": 19,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. TUNEWAN            ",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": " Soins infirmiers en ophtalmologie ",
+      "VHD": 12,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. TOKO  ",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": " Soins infirmiers en ORL",
+      "VHD": 14,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. TOKO  ",
+      "CIBLE": "IDE3",
+      "              Unité d'enseignement": "Soins infirmiers en dermatologie ",
+      "VHD": 14,
+      "VHC": 12,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. VALINGA NDOLOK",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "Communication pour le développement",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. VALINGA NDOLOK",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "Education pour la santé ",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. VALINGA NDOLOK",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Prophylaxie et Vaccination",
+      "VHD": 17,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Dr. VALINGA NDOLOK",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Sante Communautaire Et Promotion De La Sante",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "Mme KOUBOBE Epse WASSOU",
+      "CIBLE": "SFM2",
+      "              Unité d'enseignement": "Allaitement maternel ",
+      "VHD": 22,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "ASG",
+      "              Unité d'enseignement": "Notion de base en informatique",
+      "VHD": 15,
+      "VHC": 15,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "ATMSSP",
+      "              Unité d'enseignement": "Initiation à la gestion informatisée des produits informatiques ",
+      "VHD": 25,
+      "VHC": 25,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "ATMS PM",
+      "              Unité d'enseignement": "Informatique ",
+      "VHD": 15,
+      "VHC": 20,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Calcul Numérique",
+      "VHD": 11,
+      "VHC": 10,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "ATMS AM",
+      "              Unité d'enseignement": "Initiation à l’informatique et à la santé numérique",
+      "VHD": 30,
+      "VHC": 30,
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "SFM1",
+      "              Unité d'enseignement": "NTIC 1",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "SFM3",
+      "              Unité d'enseignement": "NTIC 2",
+      "VHD": 21,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "TEK1",
+      "              Unité d'enseignement": "Mathématiques",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": "Informatique",
+      "VHD": 27,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": "Mathematique ",
+      "VHD": 23,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Mathématiques",
+      "VHD": 21,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": " Initiation à l’informatique II",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. WAYANG HAMAN DELI Arsène        ",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Statistique",
+      "VHD": 26,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr WAKAYANSAM    BOUBA ROMEO",
+      "CIBLE": "TAM2",
+      "              Unité d'enseignement": "Bactériologie",
+      "VHD": 34,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "  Dr WAKAYANSAM    BOUBA ROMEO",
+      "CIBLE": "TAM3",
+      "              Unité d'enseignement": " BACTERIOLOGIE ",
+      "VHD": 45,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. YIARAH PATRICK ",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Technologie Alimentaire/Analyse Alimentaire",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. YANONE",
+      "CIBLE": "TGS1",
+      "              Unité d'enseignement": " Gestion des crises et catastrophes ",
+      "VHD": 18,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. YANONE",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": " Notions d’urbanisme /Cartographie",
+      "VHD": 22,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. YANONE",
+      "CIBLE": "TGS2",
+      "              Unité d'enseignement": "Topographie / ouvrages d’art en génie sanitaire",
+      "VHD": 20,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    },
+    {
+      "NOM et PRENON DE L’enseignant": "M. YANONE",
+      "CIBLE": "TGS3",
+      "              Unité d'enseignement": "Approvisionnement En Eau Potable",
+      "VHD": 30,
+      "VHC": "",
+      "CON": "",
+      "__EMPTY": "",
+      "__EMPTY_1": ""
+    }
+  ]
+}

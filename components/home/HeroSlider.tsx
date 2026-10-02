@@ -3,20 +3,21 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ChevronRight, ArrowRight } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 const slides = [
   {
     id: 1,
-    title: "Probitas \u2022 Scientiarum \u2022 Excellentiam",
-    subtitle: "Institut Supérieur des Sciences de la Santé de Ngong",
-    description: "L'I3SN forme les professionnels de santé du Cameroun : Infirmiers Diplômés d'État, Sages-Femmes, Techniciens Médico-Sanitaires et Aides-Soignants. Une formation d'excellence ancrée dans les réalités africaines.",
+    title: siteConfig.motto.replace(/ · /g, ", "),
+    subtitle: siteConfig.fullName,
+    description: `L'I3SN forme les professionnels de santé du Cameroun : Infirmiers Diplômés d'État, Sages-Femmes, Techniciens Médico-Sanitaires et Aides-Soignants. Une formation d'excellence ancrée dans les réalités africaines.`,
     cta: { label: "Découvrir nos filières", href: "/formations" },
-    ctaSecondary: { label: "Candidater 2026–2027", href: "/admissions" },
+    ctaSecondary: { label: `Candidater ${siteConfig.schoolYear}`, href: "/admissions" },
     bg: "linear-gradient(135deg, #10492a 0%, #1a6b3c 55%, #27ae60 100%)",
   },
   {
     id: 2,
-    title: "5 Départements, 9 Filières Médicales",
+    title: `${siteConfig.stats.departmentsCount} Départements, ${siteConfig.stats.programsCount} Filières Médicales`,
     subtitle: "Une offre de formation complète et reconnue",
     description: "De la Sage-Femme à l'Infirmier Diplômé d'État, des Agents Techniques Médico-Sanitaires aux Techniciens de Gestion Sanitaire — l'I3SN couvre tous les métiers de la santé pour répondre aux besoins du Cameroun.",
     cta: { label: "Voir toutes les filières", href: "/formations" },
@@ -25,7 +26,7 @@ const slides = [
   },
   {
     id: 3,
-    title: "Concours d'Entrée 2026-2027",
+    title: `Concours d'Entrée ${siteConfig.schoolYear}`,
     subtitle: "Les inscriptions sont ouvertes — Places limitées",
     description: "Rejoignez la prochaine promotion de l'I3SN. Constituez votre dossier, passez le concours d'entrée et construisez votre avenir dans les sciences de la santé au Cameroun et en Afrique.",
     cta: { label: "Conditions d'admission", href: "/admissions" },
@@ -39,12 +40,18 @@ export default function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
+  // Forcer le retour en haut au montage uniquement
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
+    if (isAnimating) return;
     const interval = setInterval(() => {
       goToNext();
-    }, 6000);
+    }, 10000);
     return () => clearInterval(interval);
-  }, [currentSlide]);
+  }, [currentSlide, isAnimating]);
 
   const goToSlide = (index: number) => {
     if (isAnimating || index === currentSlide) return;
@@ -105,9 +112,9 @@ export default function HeroSlider() {
         {/* Stats mini */}
         <div className="hero-stats">
           {[
-            { value: "1 000+", label: "Étudiants formés" },
-            { value: "6", label: "Filières médicales" },
-            { value: "95%", label: "Taux d'insertion" },
+            { value: siteConfig.stats.studentsTrained, label: "Étudiants formés" },
+            { value: siteConfig.stats.programsCount, label: "Filières médicales" },
+            { value: siteConfig.stats.insertionRate, label: "Taux d'insertion" },
           ].map((stat) => (
             <div key={stat.label} className="hero-stat">
               <div className="hero-stat-value">{stat.value}</div>
@@ -140,19 +147,12 @@ export default function HeroSlider() {
         <span>Défiler</span>
       </div>
 
-      {/* Breadcrumb / nav hint */}
-      <nav className="hero-breadcrumb" aria-label="Fil d'Ariane">
-        <Link href="/" className="hero-breadcrumb-link" id="hero-breadcrumb-home">Accueil</Link>
-        <ChevronRight size={14} color="rgba(255,255,255,0.5)" />
-        <span className="hero-breadcrumb-current">{slide.subtitle}</span>
-      </nav>
-
-      <style jsx>{`
+      <style jsx global>{`
         .hero-section {
           position: relative;
           min-height: 100vh;
           display: flex;
-          align-items: center;
+          flex-direction: column;
           overflow: hidden;
           color: white;
         }
@@ -217,11 +217,14 @@ export default function HeroSlider() {
         .hero-content {
           position: relative;
           z-index: 2;
-          padding-top: 120px;
-          padding-bottom: 120px;
+          padding-top: 160px; /* Espace garanti pour la navbar */
+          padding-bottom: 80px;
           display: grid;
           grid-template-columns: 1fr;
           gap: 60px;
+          margin-top: auto;
+          margin-bottom: auto;
+          width: 100%;
         }
 
         .hero-text {
@@ -394,43 +397,11 @@ export default function HeroSlider() {
           50% { opacity: 0.3; transform: translateY(8px); }
         }
 
-        /* Breadcrumb */
-        .hero-breadcrumb {
-          position: absolute;
-          top: 120px;
-          left: 50%;
-          transform: translateX(-50%);
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          z-index: 3;
-          width: 100%;
-          max-width: var(--container-max);
-          padding: 0 24px;
-        }
-
-        .hero-breadcrumb-link {
-          font-size: 0.8rem;
-          color: rgba(255,255,255,0.6);
-          text-decoration: none;
-          transition: color 0.2s;
-        }
-
-        .hero-breadcrumb-link:hover {
-          color: white;
-        }
-
-        .hero-breadcrumb-current {
-          font-size: 0.8rem;
-          color: rgba(255,255,255,0.4);
-        }
-
         @media (max-width: 768px) {
           .hero-content { padding-top: 140px; padding-bottom: 100px; }
           .hero-stats { gap: 24px; }
           .hero-stat-value { font-size: 1.8rem; }
           .hero-scroll { display: none; }
-          .hero-breadcrumb { top: 90px; }
           .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
         }
       `}</style>

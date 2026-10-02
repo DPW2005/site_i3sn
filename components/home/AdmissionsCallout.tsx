@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, Calendar, FileText, Phone } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 const steps = [
   { icon: FileText, label: "Constituer le dossier", desc: "Bac/BEPC, acte de naissance, photos d'identité, certificat médical, reçus de paiement" },
@@ -19,7 +20,7 @@ export default function AdmissionsCallout() {
 
       <div className="container callout-inner">
         <div className="callout-text">
-          <span className="callout-badge">Admissions 2026–2027</span>
+          <span className="callout-badge">Admissions {siteConfig.schoolYear}</span>
           <h2 id="callout-title" className="callout-title">
             Rejoignez l&apos;I3SN — Les Inscriptions sont Ouvertes
           </h2>
@@ -50,7 +51,7 @@ export default function AdmissionsCallout() {
               Candidater maintenant
               <ArrowRight size={18} />
             </Link>
-            <a href="tel:+237699000000" className="btn btn-outline btn-lg" id="callout-cta-phone">
+            <a href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`} className="btn btn-outline btn-lg" id="callout-cta-phone">
               <Phone size={18} />
               Nous contacter
             </a>

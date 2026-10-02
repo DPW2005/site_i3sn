@@ -2,14 +2,23 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { Users, BookOpen, Award, Building2, TrendingUp, Globe } from 'lucide-react';
+import { siteConfig } from '@/config/site';
+
+const parseStat = (str: string) => {
+  const match = str.replace(/\s+/g, '').match(/(\d+)(.*)/);
+  if (match) {
+    return { value: parseInt(match[1], 10), suffix: match[2].trim() };
+  }
+  return { value: 0, suffix: "" };
+};
 
 const stats = [
-  { icon: Users, value: 500, suffix: "+", label: "Étudiants actifs", color: "#1a6b3c" },
-  { icon: BookOpen, value: 9, suffix: "", label: "Filières médicales", color: "#27ae60" },
-  { icon: Award, value: 5, suffix: "", label: "Départements", color: "#d4a017" },
-  { icon: Building2, value: 10, suffix: "+", label: "Années d'expérience", color: "#8e44ad" },
-  { icon: TrendingUp, value: 2, suffix: "", label: "Semestres académiques", color: "#e67e22" },
-  { icon: Globe, value: 100, suffix: "%", label: "Engagement qualité", color: "#16a085" },
+  { icon: Users, ...parseStat(siteConfig.stats.activeStudents), label: "Étudiants actifs", color: "#1a6b3c" },
+  { icon: BookOpen, ...parseStat(siteConfig.stats.programsCount), label: "Filières médicales", color: "#27ae60" },
+  { icon: Award, ...parseStat(siteConfig.stats.departmentsCount), label: "Départements", color: "#d4a017" },
+  { icon: Building2, ...parseStat(siteConfig.stats.yearsExperience), label: "Années d'expérience", color: "#8e44ad" },
+  { icon: TrendingUp, ...parseStat(siteConfig.stats.academicSemesters), label: "Semestres académiques", color: "#e67e22" },
+  { icon: Globe, ...parseStat(siteConfig.stats.qualityEngagement), label: "Engagement qualité", color: "#16a085" },
 ];
 
 function useCountUp(target: number, duration: number, start: boolean) {

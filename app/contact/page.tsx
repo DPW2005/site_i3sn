@@ -5,8 +5,9 @@ import Link from "next/link";
 import {
   MapPin, Phone, Mail, Clock, Send, CheckCircle, AlertCircle
 } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
-const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL || '';
+const GOOGLE_SCRIPT_URL = '/api/submit-form';
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', subject: '', message: '' });
@@ -21,27 +22,29 @@ export default function ContactPage() {
     setStatus('loading');
 
     try {
-      if (!GOOGLE_SCRIPT_URL) {
-        await new Promise(resolve => setTimeout(resolve, 1200));
+      const response = await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'contact',
+          ...form,
+          date: new Date().toISOString(),
+        }),
+      });
+
+      if (response.ok) {
         setStatus('success');
         setForm({ name: '', email: '', phone: '', subject: '', message: '' });
-        return;
+      } else {
+        setStatus('error');
       }
-
-      const formData = new FormData();
-      formData.append('type', 'contact');
-      Object.entries(form).forEach(([k, v]) => formData.append(k, v));
-      formData.append('date', new Date().toISOString());
-
-      await fetch(GOOGLE_SCRIPT_URL, { method: 'POST', body: formData, mode: 'no-cors' });
-      setStatus('success');
-      setForm({ name: '', email: '', phone: '', subject: '', message: '' });
     } catch {
       setStatus('error');
     }
 
     setTimeout(() => setStatus('idle'), 5000);
   };
+
 
   return (
     <>
@@ -192,7 +195,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3>Adresse</h3>
-                  <p>Institut Supérieur des Sciences de la Santé de Ngong<br />Ngong, Région de l&apos;Adamaoua<br />Cameroun</p>
+                  <p>{siteConfig.fullAddress.split('\n').map((line, i) => (
+                    <span key={i}>{line}<br /></span>
+                  ))}</p>
                 </div>
               </div>
 
@@ -202,8 +207,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3>Téléphone</h3>
-                  <a href="tel:+237699000000" id="contact-tel-link">+237 699 000 000</a>
-                  <a href="tel:+237699000001" id="contact-tel-link-2">+237 699 000 001</a>
+                  <a href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`} id="contact-tel-link">{siteConfig.phone}</a>
+                  <a href={`tel:${siteConfig.phoneSecondary.replace(/\s+/g, '')}`} id="contact-tel-link-2">{siteConfig.phoneSecondary}</a>
                 </div>
               </div>
 
@@ -213,8 +218,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <a href="mailto:contact@i3sn.cm" id="contact-email-main">contact@i3sn.cm</a>
-                  <a href="mailto:admissions@i3sn.cm" id="contact-email-admissions">admissions@i3sn.cm</a>
+                  <a href={`mailto:${siteConfig.email}`} id="contact-email-main">{siteConfig.email}</a>
+                  <a href={`mailto:${siteConfig.emailAdmissions}`} id="contact-email-admissions">{siteConfig.emailAdmissions}</a>
                 </div>
               </div>
 

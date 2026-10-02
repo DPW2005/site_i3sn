@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Calendar, FileText, CheckCircle, ArrowRight, Download, Phone, Mail, AlertCircle } from "lucide-react";
 
+import { siteConfig } from "@/config/site";
+
 export const metadata: Metadata = {
   title: "Admissions",
-  description: "Conditions d'admission, concours d'entrée et procédure d'inscription à l'I3SN pour l'année académique 2026-2027.",
+  description: `Conditions d'admission, concours d'entrée et procédure d'inscription à l'I3SN pour l'année académique ${siteConfig.schoolYear}.`,
 };
 
 const conditions = [
@@ -56,7 +58,7 @@ export default function AdmissionsPage() {
             <span>Admissions</span>
           </nav>
           <h1>Admissions &amp; Concours d&apos;Entrée</h1>
-          <p>Tout ce que vous devez savoir pour candidater à l&apos;Institut Supérieur des Sciences de la Santé de Ngong pour l&apos;année académique 2026-2027.</p>
+          <p>Tout ce que vous devez savoir pour candidater à l&apos;Institut Supérieur des Sciences de la Santé de Ngong pour l&apos;année académique {siteConfig.schoolYear}.</p>
           <div className="hero-btns">
             <a href="#dossier" className="btn btn-primary btn-lg" id="admissions-hero-dossier">
               <FileText size={18} /> Préparer mon dossier
@@ -71,7 +73,7 @@ export default function AdmissionsPage() {
       <div className="adm-alert" id="admissions-alert" role="alert">
         <div className="container adm-alert-inner">
           <AlertCircle size={20} />
-          <strong>Inscriptions ouvertes !</strong> Déposez votre dossier avant le 30 novembre 2026. Places limitées par filière.
+          <strong>Inscriptions ouvertes !</strong> Déposez votre dossier avant le 30 novembre {siteConfig.schoolYear.substring(0,4)}. Places limitées par filière.
         </div>
       </div>
 
@@ -147,13 +149,13 @@ export default function AdmissionsPage() {
               <div className="adm-sidebar-block adm-contact-block" id="contact-admissions">
                 <h3 className="adm-sidebar-title"><Phone size={18} /> Service des Admissions</h3>
                 <div className="adm-contact-list">
-                  <a href="tel:+237699000000" className="adm-contact-item" id="admissions-phone">
+                  <a href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`} className="adm-contact-item" id="admissions-phone">
                     <div className="adm-contact-icon"><Phone size={16} /></div>
-                    <div><div className="adm-contact-label">Téléphone</div><div className="adm-contact-value">+237 699 000 000</div></div>
+                    <div><div className="adm-contact-label">Téléphone</div><div className="adm-contact-value">{siteConfig.phone}</div></div>
                   </a>
-                  <a href="mailto:admissions@i3sn.cm" className="adm-contact-item" id="admissions-email">
+                  <a href={`mailto:${siteConfig.emailAdmissions}`} className="adm-contact-item" id="admissions-email">
                     <div className="adm-contact-icon"><Mail size={16} /></div>
-                    <div><div className="adm-contact-label">Email</div><div className="adm-contact-value">admissions@i3sn.cm</div></div>
+                    <div><div className="adm-contact-label">Email</div><div className="adm-contact-value">{siteConfig.emailAdmissions}</div></div>
                   </a>
                 </div>
                 <p className="adm-hours">Lundi – Vendredi : 8h00 – 17h00<br />Samedi : 8h00 – 12h00</p>
