@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { User, Mail, ArrowRight } from "lucide-react";
+import { User, Mail, ArrowRight, Phone } from "lucide-react";
 import { teachers } from "@/data/teachers";
 
 export const metadata: Metadata = {
@@ -46,11 +46,18 @@ export default function EnseignantsPage() {
                       <h3 className="teacher-page-name">{teacher.name}</h3>
                       <p className="teacher-page-specialty">{teacher.specialty}</p>
                       <p className="teacher-page-bio">{teacher.bio}</p>
-                      {teacher.email && (
-                        <a href={`mailto:${teacher.email}`} className="teacher-page-email" id={`teacher-page-email-${teacher.id}`}>
-                          <Mail size={14} />{teacher.email}
-                        </a>
-                      )}
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '1rem' }}>
+                        {teacher.email && (
+                          <a href={`mailto:${teacher.email}`} className="teacher-page-email" id={`teacher-page-email-${teacher.id}`} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Mail size={14} />{teacher.email}
+                          </a>
+                        )}
+                        {teacher.phone && (
+                          <a href={`tel:${teacher.phone.replace(/\\s+/g, '')}`} className="teacher-page-email" id={`teacher-page-phone-${teacher.id}`} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Phone size={14} />{teacher.phone}
+                          </a>
+                        )}
+                      </div>
                     </div>
                   </article>
                 ))}
